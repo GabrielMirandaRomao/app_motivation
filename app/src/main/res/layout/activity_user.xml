@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/component_regular_background"
+    tools:context=".ui.UserActivity">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:paddingTop="32dp"
+        android:textColor="@color/component_title"
+        android:text="@string/lets_get_started"/>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:hint="@string/whats_your_name"
+        android:textColor="@color/component_edit"
+        android:textColorHint="@color/component_edit"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Button_save"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/component_edit"
+        android:backgroundTint="@color/component_button"
+        android:text="@string/save_it"
+        android:layout_marginBottom="32dp"
+        />
+
+</RelativeLayout>
